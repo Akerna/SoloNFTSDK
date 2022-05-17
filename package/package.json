@@ -1,0 +1,33 @@
+{
+  "name": "@akerna/solonftsdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "module": "./module/index.js",
+  "browser": "./index.js",
+  "exports": {
+      ".": {
+          "node": {
+              "require": "./index.js",
+              "import": "./module/index.js"
+          },
+          "default": "./index.js"
+      }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akerna/SoloNFTSDK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akerna/SoloNFTSDK/issues"
+  },
+  "homepage": "https://github.com/Akerna/SoloNFTSDK#readme",
+  "dependencies": {
+    "Acid": "^3.0.5"
+  }
+}
